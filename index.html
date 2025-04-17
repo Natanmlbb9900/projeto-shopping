@@ -21,16 +21,41 @@
 </head>
 
 <body class="">
-    <header class="flex items-center justify-between pt-[35px] px-[120px]">
+    <header class="flex items-center justify-between pt-4 px-4 md:px-[60px] lg:pt-[35px] lg:px-[120px]">
         <img src="imgs/logo.png" alt="">
-        <nav class="flex items-center gap-[65px]">
+        <nav class="hidden lg:flex items-center gap-[65px]">
             <a href="">Catologue</a>
             <a href="">Fashion</a>
             <a href="">Favorite</a>
             <a href="">Lifestyle</a>
             <a href="" class="leading-[62px] bg-black text-white px-[22px] rounded block hover:bg-amarelo hover:text-black duration-200">Sign up</a>
         </nav>
+        <div class="w-[50px] h-[50px] bg-black rounded-full fixed right-4 bottom-8 flex justify-center items-center lg:hidden">
+            <box-icon name="menu" class="fill-white"></box-icon>
+        </div>
     </header>
+
+    <main>
+        <section id="banner" class="px-4 lg:px-[60px] x1:px-[120px] pt-4 lg:pt-[30px] x1:pt-[50px]">
+        <a href="">
+            <img src="imgs/banner.png" alt="" class="w-full">
+        </a>
+        </section>
+
+        <section id="marcas" class="bg-amarelo mt-4 lg:mt-[30px] x1:mt-[60px] px-4 lg:px-[60px] x1:px-[120px] py-4 lg:py-[26px] x1:py-[40px] overflow-x-auto ">
+            <div class="*:mix-blend-multiply flex gap-[30px] max-h-[40px] lg:*:max- ">
+                <img src="imgs/marca 1.png" alt="H&H">
+                <img src="imgs/marca 2.png" alt="Obey">
+                <img src="imgs/marca 3.png" alt="Shopify">
+                <img src="imgs/marca 4.png" alt="Lacoste">
+                <img src="imgs/marca 5.png" alt="Levi's">
+                <img src="imgs/marca 6.png" alt="Amazon">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 </body>
 
 </html>
